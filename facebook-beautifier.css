@@ -1,0 +1,89 @@
+/*
+ * Copyright (C) 2011 Tanooj Luthra <tanoojl@gmail.com>
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ 
+
+#mw-head, #mw-panel, #protected-icon {
+    opacity: 0;
+    -webkit-transition: all 400ms ease-in-out;
+}
+#mw-head:hover, #mw-panel:hover {
+    opacity: 1;
+}
+*/
+.slimHeader #pageLogo a:hover, .slimHeader #pageLogo a:focus, .slimHeader #pageLogo a:active {
+    background-color:#d2d2d2;
+}
+.slimHeader #pageLogo a {
+    background-color:#f1f1f1;
+}
+
+.slimHeader #pageLogo a, .slimHeader #pageLogo a:hover, .slimHeader #pageLogo a:focus, .slimHeader #pageLogo a:active {
+    background-image: url("http://i.imgur.com/5IrY0.png");
+    background-position: -208px -10px;
+    
+}
+#pagelet_ticker, .ego_column, .ego_section, #pagelet_navigation, #pagelet_ego_pane_m, #pagelet_rhc_ticker {
+    visibility:hidden;
+    display: none;
+}
+.fbxWelcomeBox .fbxWelcomeBoxName, .uiComposerAttachment .attachmentLink, .fbCurrent .fbCurrentStory .fbCurrentTitle, .UIActionLinks_bottom a, .UIActionLinks_bottom button.as_link, .UIActionLinks_bottom .uiLinkButton input, .UIActionLinks_bottom .uiLinkButton input:hover, .UIActionLinks .uiLinkButton, .UIActionLinks .uiLinkButton input, .UIActionLinks .uiLinkButton input:hover, .uiStreamFooter a  {
+    color: black;
+}
+.slim #blueBar {
+    background-color: #F1F1F1;
+    border-bottom: 1px solid #D2D2D2;
+}
+.slimHeader #fbRequestsJewel a.jewelButton {
+    background-position: -50px -247px;
+}
+.slimHeader #fbMessagesJewel a.jewelButton {
+    background-position: -31px -37px;
+}
+.slimHeader #fbNotificationsJewel a.jewelButton {
+    background-position: -31px -107px;
+}
+.slimHeader #fbRequestsJewel a.jewelButton:hover, .slimHeader #fbMessagesJewel a.jewelButton:hover, .slimHeader #fbNotificationsJewel a.jewelButton {
+    background-color:#d2d2d2;
+}
+
+.uiStreamMessage .actorName, .uiStreamMessage .passiveName {
+    color: #000;
+}
+.uiStreamMessage .actorName, .uiStreamMessage .passiveName a {
+    color: #000;
+}
+.slimHeader #pageNav a {
+    color: #000;
+}
+.slimHeader #pageNav a:hover {
+    color: #d2d2d2;
+}
+.slimHeader #navSearch .uiTypeahead {
+    border: solid 1px #000;
+    border-top: solid 1px #000;
+}
+.slimHeader .fbJewel .jewelCount span {
+    border: solid 1px #000;
+    border-top: solid 1px #000;
+    background-color: #000;
+}
+.timelineLayout, .fbTimelineScrubber, .fbTimelineNavigationWrapper .frame .mat {
+    background: #f1f1f1;
+}
+.uiBoxLightblue {
+    background-color: #F2F2F2;
+    border: 1px solid #D2D2D2;
+}

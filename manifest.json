@@ -1,0 +1,13 @@
+{
+  "name": "Facebook Beautifier",
+  "version": "1",
+  "description": "Beautifies Facebook text and layout to make everything better looking",
+  "content_scripts": [
+      {
+          "matches": [ "*://www.facebook.com/*", "*://www.facebook.com/?ref=*" ],
+          "css": [ "facebook-beautifier.css" ],
+          "js": [  "jquery-1.6.4.min.js", "hyphenator.js", "facebook-beautifier.js" ],
+          "run_at": "document_end"
+      }
+  ]
+}
